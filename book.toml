@@ -1,0 +1,6 @@
+[book]
+authors = ["Carlos Garcia Ortiz <yo@karliatto.com>", "Charles Hill <chill@degreesofzero.com>"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Bleskomat Devices Operator Manual"
