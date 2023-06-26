@@ -4,18 +4,6 @@ Once you receive Your Bleskomat Bills it should be fully functional but it is no
 
 In order to configure the device to be fully functional you need to either use the Bleskomat Platform, have your own Bleskomat Server or run it with some of the integrations we have done with other projects like LNBits or Umbrel. Here we are going to explain how to do it with Bleskomat Platform.
 
-## Preparing board for hardware configuration
-
-The only think you need, is to take the Bleskomat Board from the case and connect it with USB to your computer using the CP2101 connector that was provided with your device.
-
-![](./assets/bleskomat-board-connected.jpg)
-
-You have to make sure that Bleskomat Board switch is set to "Firmware" so we can configure it.
-
-<video width="320" height="240" controls muted>
-  <source src="./assets/connect-blesko-board-to-cp2101--computer-firmware-connector.mp4" type="video/mp4">
-</video>
-
 ## Platform configuration
 
 In Bleskomat Platform go to Devices > Device Settings
@@ -28,7 +16,19 @@ In Bleskomat Platform go to Devices > Device Settings
 - _Fixed Fee_ - A fixed fee denominated in the fiat currency of the device. This is how you make money.
 - _Custom Invoice Memo Prefix_ - If set, this will replace the default invoice memo prefix - e.g. Bleskomat (absurd cake). Your ATM customers will see this in the memo field of their wallet application's invoice.
 
-## Hardware Configuration
+## Preparing board for hardware configuration
+
+The only think you need, is to take the Bleskomat Board from the case and connect it with USB to your computer using the CP2101 connector that was provided with your device.
+
+![](./assets/bleskomat-board-connected.jpg)
+
+You have to make sure that Bleskomat Board switch is set to "Firmware" so we can configure it.
+
+<video controls muted>
+  <source src="./assets/connect-blesko-board-to-cp2101--computer-firmware-connector.mp4" type="video/mp4">
+</video>
+
+## Hardware Configuration from Bleskomat Platform
 
 Bleskomat platform hardware configuration will do the job for you.
 

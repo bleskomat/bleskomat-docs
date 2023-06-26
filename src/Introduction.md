@@ -1,3 +1,3 @@
 # Introduction
 
-This is de documentation for Bleskomat devices.
+This is the documentation for Bleskomat devices.

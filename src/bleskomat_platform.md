@@ -9,10 +9,10 @@ https://www.bleskomat.com/start
 
 ## Features of the Bleskomat Platform
 
-• Support for several LN service providers
-• Remotely manage your ATM’s configurations
-• View statistics and monitor your ATM
-• Receive email alerts regarding funding or other issues
+- Support for several LN service providers
+- Remotely manage your ATM’s configurations
+- View statistics and monitor your ATM
+- Receive email alerts regarding funding or other issues
 
 ## No Vendor Lock-in
 
