@@ -53,3 +53,34 @@ The above described steps are display in the video below for clarification:
 <video controls muted>
   <source src="./assets/bleskomat-coins-hardware-configuration.webm" type="video/mp4">
 </video>
+
+## Training Coin acceptor to whatever currency you want
+
+> Video coming soon!
+
+1. Access To Coin Parameters Setting
+   Keep pressing button A till CP is displayed.
+   LED displays CP , press button A to select one of six groups of coins.
+
+1. Clean Up All Coin Parameters
+   When it displays CP , keep pressing button B till CC is displayed, it will clean up all six
+   groups of coin parameters .
+
+1. Add New Coin Parameters
+   When it displays CP , press button A to select the needed coin group （C1~C6）, then press
+   button B to displays the current coin value stored , deposit coins needed (it prompts "bi" each
+   time deposit a coin), when it prompts “bi.bi.bi”and displays F ,it means this group is fully
+   stored and don't need to add coins anymore.
+
+   The coin values should go from 1 to 6 being 1 the smallest denomination you are going to use and 6 the biggest.
+   For example for Euro coins:
+   1 - 0.05
+   2 - 0.10
+   3 - 0.20
+   4 - 0.50
+   5 - 1.00
+   6 - 2.00
+
+1. Exit Coin Parameters Setting
+   After finish coins parameter setting, keep pressing button A for 2 seconds, release after it
+   displays 88.
