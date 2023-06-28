@@ -36,9 +36,9 @@ Bleskomat platform hardware configuration will do the job for you.
 - Set all the configuration so the device works connected to you Bleskomat platform
 - It will ask you if any decision has to be made. Like language you will like to use.
 
-In the Bleskomat board there are 2 buttons (Boot and Flash). You will have to push those buttons during the configuration as it follows:
+In the Bleskomat board there are 2 buttons (Boot and Flash). You will be asked to push those buttons during firmware update as it follows:
 
-- Keep "Flash button" pressed while you pressed and release "Boot button". The release "Flash button" and just press "Boot button" alone.
+- Keep "FLASH" button pressed while you pressed and release "BOOT" button. Once the Firmware updated has concluded you should press "BOOT" button alone.
 
 Bellow you can see a vide of how it goes:
 
