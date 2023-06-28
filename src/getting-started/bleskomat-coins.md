@@ -26,6 +26,12 @@ The only think you need, is to take the Bleskomat Board from the case and connec
 
 ![](./assets/bleskomat-coins-board-connected.jpeg)
 
+You have to make sure that Bleskomat Board switch is set to "Firmware" so we can configure it.
+
+<video width="320" controls muted>
+  <source src="./assets/connect-blesko-board-to-cp2101--computer-firmware-connector.mp4" type="video/mp4">
+</video>
+
 ## Hardware configuration from Bleskomat Platform
 
 Once you have the board out of the box you connect it to your computer with USB and the Bleskomat Platform will manage the configurations for you.
@@ -55,6 +61,8 @@ The above described steps are display in the video below for clarification:
 </video>
 
 ## Training Coin acceptor to whatever currency you want
+
+> For now we are shipping all Bleskomat coins configured by default for Euro coins. But you can train it for every currency you want.
 
 > Video coming soon!
 
