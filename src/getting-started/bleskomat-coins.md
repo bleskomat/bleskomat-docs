@@ -84,3 +84,7 @@ The above described steps are display in the video below for clarification:
 1. Exit Coin Parameters Setting
    After finish coins parameter setting, keep pressing button A for 2 seconds, release after it
    displays 88.
+
+## Troubleshooting
+
+- If you are using Bleskomat Board version "Bleskomat coins v1.0.2" you need to use "coinSignalPin": 16 and "coinInhibitPin": 21. Instead if you are using "Bleskomat v4.0.1" or greater you need to use "coinSignalPin": 9 and "coinInhibitPin": 10. You can check it from browser Bleskomat Configuration Tool: https://platform.bleskomat.com/serial
