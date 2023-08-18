@@ -30,11 +30,10 @@ You have to make sure that Bleskomat Board switch is set to "Firmware" so we can
 
 ## Hardware Configuration from Bleskomat Platform
 
-Bleskomat platform hardware configuration will do the job for you.
+Once you have the board out of the box you connect it to your computer with USB and the Bleskomat Platform will manage the configurations for you.
 
-- Check for firmware updates and update to lates
-- Set all the configuration so the device works connected to you Bleskomat platform
-- It will ask you if any decision has to be made. Like language you will like to use.
+- If you are on Windows you should install driver https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads and download the file with name "CP210x Windows Drivers".
+- If you are on Linux probably you will have to give permissions to your user to access USB running the command: "`sudo chown ${USER}:${USER} /dev/ttyUSB0`"
 
 In the Bleskomat board there are 2 buttons (Boot and Flash). You will be asked to push those buttons during firmware update as it follows:
 

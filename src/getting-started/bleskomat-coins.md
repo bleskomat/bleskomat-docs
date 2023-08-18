@@ -4,13 +4,15 @@
 
 In Bleskomat Platform go to Devices > Device Settings
 
-- _Reference Phrase_ - Two random words from Bip39 list used to identify the device.
-- _Device Type_ - What Bleskomat device you are configuring.
-- _Fiat Currency_ - The fiat currency that the device is going to accept. It requires hardware configuration so it is not possible to only change it here and make it work.
-- _Exchange Rates_ - The provider used for the exchange rate that will be done at the moment for each trade.
-- _Fee Percent (%)_ - Percentage of the fee that will be applied to every trade. This is how you make money.
-- _Fixed Fee_ - A fixed fee denominated in the fiat currency of the device. This is how you make money.
-- _Custom Invoice Memo Prefix_ - If set, this will replace the default invoice memo prefix - e.g. Bleskomat (absurd cake). Your ATM customers will see this in the memo field of their wallet application's invoice.
+| Name                         | Description                                                                                                                                                                         |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _Reference Phrase_           | Two random words from Bip39 list used to identify the device.                                                                                                                       |
+| _Device Type_                | What Bleskomat device you are configuring.                                                                                                                                          |
+| _Fiat Currency_              | The fiat currency that the device is going to accept. It requires hardware configuration so it is not possible to only change it here and make it work.                             |
+| _Exchange Rates_             | The provider used for the exchange rate that will be done at the moment for each trade.                                                                                             |
+| _Fee Percent (%)_            | Percentage of the fee that will be applied to every trade. This is how you make money.                                                                                              |
+| _Fixed Fee_                  | A fixed fee denominated in the fiat currency of the device. This is how you make money.                                                                                             |
+| _Custom Invoice Memo Prefix_ | If set, this will replace the default invoice memo prefix - e.g. Bleskomat (absurd cake). Your ATM customers will see this in the memo field of their wallet application's invoice. |
 
 ## Preparing board for hardware configuration
 
@@ -36,8 +38,12 @@ You have to make sure that Bleskomat Board switch is set to "Firmware" so we can
 
 Once you have the board out of the box you connect it to your computer with USB and the Bleskomat Platform will manage the configurations for you.
 
-- If you are on Windows you should install driver https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads
+- If you are on Windows you should install driver https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads and download the file with name "CP210x Windows Drivers".
 - If you are on Linux probably you will have to give permissions to your user to access USB running the command: "`sudo chown ${USER}:${USER} /dev/ttyUSB0`"
+
+In the Bleskomat board there are 2 buttons (Boot and Flash). You will be asked to push those buttons during firmware update as it follows:
+
+- Keep "FLASH" button pressed while you pressed and release "BOOT" button. Once the Firmware updated has concluded you should press "BOOT" button alone.
 
 Steps:
 
@@ -92,7 +98,3 @@ The above described steps are display in the video below for clarification:
 1. Exit Coin Parameters Setting
    After finish coins parameter setting, keep pressing button A for 2 seconds, release after it
    displays 88.
-
-## Troubleshooting
-
-- If you are using Bleskomat Board version "Bleskomat coins v1.0.2" you need to use "coinSignalPin": 16 and "coinInhibitPin": 21. Instead if you are using "Bleskomat v4.0.1" or greater you need to use "coinSignalPin": 9 and "coinInhibitPin": 10. You can check it from browser Bleskomat Configuration Tool: https://platform.bleskomat.com/serial
